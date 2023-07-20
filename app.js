@@ -50,4 +50,4 @@ const addElementsToParent = (markup, element) => {
     console.log(main, '!!! main')
 }
 
-addElementsToParent(markup);
+addElementsToParent(Object.freeze(markup));
